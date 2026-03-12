@@ -23,10 +23,10 @@ python code as in the yolo_detection\train_yolo.py
 ```
 from ultralytics import YOLO
 
-# Load a COCO-pretrained YOLO11n model
+# Load a pretrained YOLO11n model
 model = YOLO("yolo11n.pt")
 
-# Train the model on the COCO8 example dataset for 100 epochs
+# Train the model on the example dataset for 100 epochs
 results = model.train(data=r"D:\Spring26\TA\robot_vision\yolo_detection\dataset\data.yaml", epochs=10, imgsz=640)
 ```
 
@@ -69,5 +69,6 @@ results = model(source= r"yolo_detection\dataset\images\val\0_0_png_camera_noise
 
 
 ``` 
+
 
 
