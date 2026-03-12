@@ -1,6 +1,18 @@
 ## Command Line Interface (CLI) for quick execution and a Python API for Ultralytics implementation of YOLOv11
 ## for other versions of the model check https://docs.ultralytics.com/models
 
+create a folder as yolo_detection 
+```
+mkdir yolo_project && cd yolo_project
+```
+after activating you venv, install the ultralytics library 
+```
+pip install ultralytics
+```
+
+make a new python file name train_yolo.py or run the following command in the bash cli.
+you dont need to download the model needed, mentioning the correct name in the command helps
+ultralytics library to do it for you automatically
 
 bash
 ```
@@ -57,4 +69,5 @@ results = model(source= r"yolo_detection\dataset\images\val\0_0_png_camera_noise
 
 
 ``` 
+
 
