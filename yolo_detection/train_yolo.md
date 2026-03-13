@@ -72,5 +72,3 @@ results = model(source= r"yolo_detection\dataset\images\val\0_0_png_camera_noise
 
 
 
-
-
