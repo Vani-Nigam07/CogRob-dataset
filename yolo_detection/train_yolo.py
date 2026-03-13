@@ -8,3 +8,5 @@ results = model.train(data=r"D:\Spring26\TA\robot_vision\yolo_detection\dataset\
 
 # Run inference with the YOLO11n model on the a single validation image
 results = model(r"D:\Spring26\TA\robot_vision\yolo_detection\dataset\images\val\0_0_png_camera_noise_photo1.jpg")
+
+
